@@ -1,0 +1,84 @@
+/* ------------Header css start-------------  */
+
+.header-logo{
+width: 100px;
+}
+
+#services{
+border: none;
+background-color: none;
+}
+:focus{
+background-color: #f1f1f1;
+}
+
+.btn-color{
+    background-color: #ed6109;
+    color: #ffff;
+    border: none !important;
+    border-radius: 0%;
+}
+ul li a:hover{
+    color: #ed6109 !important; 
+}
+ul li a:active{
+    color: #ed6109 !important;  
+}
+ul li .nav-item:hover{
+    color: #ed6109 !important;;
+}
+.navbar-nav{
+    margin-left: 28em;
+    margin-top: 25px;
+}
+.email{
+    position: absolute;
+    margin-bottom: 25px;
+    margin-left: 750px
+}
+.fa-envelope{
+    color: #ed6109 !important;
+    margin-right: 8px  
+}
+.fa-phone-square-alt{
+    color: #ed6109 !important; 
+    margin-left: 18px;
+}
+.fa-caret-down{
+    color: #ed6109 !important;
+    margin-left: 8px;
+}
+.border-left{
+    border-left: 2px solid rgb(216, 209, 209);
+    margin-left: 6px;
+}
+
+/* Mobile View Or Responsive css  */
+ 
+@media only screen and (max-width: 1400px) {
+    .email{
+        display: none !important;
+        position: none !important;
+        margin-bottom: 0px !important;
+        margin-left: 0px !important;
+    }
+    .fa-envelope{
+        display: none; 
+    }
+    .fa-phone-square-alt{
+        display: none;
+    }
+    .fa-caret-down{
+        display: none;
+    }
+    .border-left{
+        display: none;
+        border-left: 0;
+        margin-left: 0;
+    }
+    .navbar-nav{
+        margin-left: 0 !important;
+        margin-top: 0px !important;
+    }
+    
+  }
